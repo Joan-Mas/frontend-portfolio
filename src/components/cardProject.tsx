@@ -1,17 +1,19 @@
 import Image from "next/image";
+import temp from "public/rdm.jpg"
 
 export default function CardProject() {
   const imageStyle = {
-    borderRadius: "20%",
+    borderRadius: "25%",
     border: "2px solid #fff",
+    width: "50%" ,
+    height: "auto",
   };
 
   return (
     <div className="flex flex-col items-center justify-center text-base font-normal text-center">
       <Image
-        src="/rdm.jpg"
-        width={120}
-        height={120}
+        src={temp}
+        sizes="20%"
         alt="project's visual"
         style={imageStyle}
       />
