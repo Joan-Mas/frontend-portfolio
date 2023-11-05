@@ -32,7 +32,7 @@ export default function About() {
           My CV
         </div>
 
-        <div className="flex flex-col items-center justify-around p-4">
+        {/* <div className="flex flex-col items-center p-4">
           <Image
             src="/profil.png"
             width={80}
@@ -41,7 +41,7 @@ export default function About() {
             style={imageStyle}
             className="mt-4"
           />
-        </div>
+        </div> */}
       </div>
       <div className="basis-1/12">
         <NavBar />
