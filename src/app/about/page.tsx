@@ -13,7 +13,7 @@ export default function About() {
       <div className="basis-1/12">
         <Top />
       </div>
-      <div className="basis-10/12 font-normal flex flex-col items-center border-2 m-8 rounded-3xl bg-gray-500/20">
+      <div className="basis-10/12 font-normal flex flex-col items-center border-2 m-6 rounded-3xl bg-gray-500/20">
         
 
         <div className="flex flex-col p-4 text-sm text-left">
@@ -28,15 +28,15 @@ export default function About() {
           <div className="pt-1">IDE : Visual Studio Code / Eclipse</div>
         </div>
 
-        <div className=" bg-violet-600 flex items-center justify-center border-2 rounded-3xl h-8 w-24 m-4">
+        <div className=" bg-violet-600 flex items-center justify-center border-2 rounded-3xl h-8 w-24 m-2">
           My CV
         </div>
 
         <div className="flex flex-col items-center justify-around p-4">
           <Image
             src="/profil.png"
-            width={100}
-            height={100}
+            width={80}
+            height={80}
             alt="project's visual"
             style={imageStyle}
             className="mt-4"
