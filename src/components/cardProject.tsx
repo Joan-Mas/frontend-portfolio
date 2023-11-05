@@ -10,8 +10,8 @@ export default function CardProject() {
     <div className="flex flex-col items-center justify-center text-base font-normal text-center">
       <Image
         src="/rdm.jpg"
-        width={200}
-        height={200}
+        width={150}
+        height={150}
         alt="project's visual"
         style={imageStyle}
       />
