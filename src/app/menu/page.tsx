@@ -1,5 +1,6 @@
 import Top from "@/components/top";
 import NavBar from "@/components/navbar";
+import Link from "next/link";
 
 export default function Menu() {
   return (
@@ -8,10 +9,10 @@ export default function Menu() {
         <Top />
       </div>
       <div className="basis-10/12 font-normal text-justify flex flex-col items-center justify-around p-16 text-3xl">
-        <div>Home</div>
-        <div>Projects</div>
-        <div>About</div>
-        <div>Contact</div>
+        <div><Link href="/">Home</Link></div>
+        <div><Link href="/projects">Projects</Link></div>
+        <div><Link href="/about">About</Link></div>
+        <div><Link href="/contact">Contact</Link></div>
       </div>
       <div className="basis-1/12">
         <NavBar />
