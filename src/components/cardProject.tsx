@@ -3,7 +3,7 @@ import temp from "public/rdm.jpg"
 
 export default function CardProject() {
   const imageStyle = {
-    borderRadius: "25%",
+    borderRadius: "15%",
     border: "2px solid #fff",
     width: "50%",
     height: "20%",
@@ -18,7 +18,6 @@ export default function CardProject() {
         style={imageStyle}
       />
       <div className="p-4">Name of the project | Name of the Entreprise</div>
-      <div className="pt-4">Link to GitHub</div>
     </div>
   );
 }

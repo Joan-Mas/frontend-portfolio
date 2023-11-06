@@ -7,8 +7,8 @@ export default function Projects() {
       <div style={{ position: "fixed", top: "0", left: "0", width: "100%" }}>
         <Top />
       </div>
-      <div className="basis-1/12"></div>
-      <div className="basis-10/12 p-16">
+      <div className="basis-4/12"></div>
+      <div className="basis-7/12 items-center justify-center">
         <CardProject/>
       </div>
       <div className="basis-1/12">

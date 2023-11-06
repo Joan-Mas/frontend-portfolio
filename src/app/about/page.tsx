@@ -12,9 +12,9 @@ export default function About() {
       <div style={{ position: "fixed", top: "0", left: "0", width: "100%" }}>
         <Top />
       </div>
-      <div className="basis-1/12"></div>
-      <div className="basis-10/12 font-normal flex flex-col items-center justify-center border-2 m-6 rounded-3xl bg-gray-500/20">
-        <div className="flex flex-col p-4 text-sm text-left">
+      <div className="basis-2/12"></div>
+      <div className="basis-9/12 font-normal flex flex-col items-center justify-center border-2 m-4 rounded-3xl bg-gray-500/20">
+        <div className="flex flex-col p-4 pb-2 pt-2 text-sm text-left">
           <div>Language : JavaScript / TypeScript / Java / HTML / CSS</div>
           <div className="pt-1">Library : React</div>
           <div className="pt-1">
