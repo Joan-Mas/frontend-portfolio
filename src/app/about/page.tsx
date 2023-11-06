@@ -9,12 +9,11 @@ export default function About() {
 
   return (
     <div className="flex flex-col h-screen text-center bg-[url('/bg.gif')] bg-cover bg-no-repeat text-white">
-      <div className="basis-1/12">
+      <div style={{ position: "fixed", top: "0", left: "0", width: "100%" }}>
         <Top />
       </div>
-      <div className="basis-10/12 font-normal flex flex-col items-center border-2 m-6 rounded-3xl bg-gray-500/20">
-        
-
+      <div className="basis-1/12"></div>
+      <div className="basis-10/12 font-normal flex flex-col items-center justify-center border-2 m-6 rounded-3xl bg-gray-500/20">
         <div className="flex flex-col p-4 text-sm text-left">
           <div>Language : JavaScript / TypeScript / Java / HTML / CSS</div>
           <div className="pt-1">Library : React</div>
@@ -42,8 +41,7 @@ export default function About() {
           />
         </div> */}
       </div>
-      <div className="basis-1/12">
-      </div>
+      <div className="basis-1/12"></div>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Top() {
   return (
-    <div className="flex flex-row h-full p-4 pt-6">
+    <div className="flex flex-row h-full p-4 pt-6 bg-black">
       <div className="basis-1/5 flex items-center justify-center">
       <Link href="/menu"><FontAwesomeIcon icon={faBars} style={{color: "#ffffff",}} className="h-6" /></Link>
       </div>
