@@ -5,7 +5,7 @@ export default function CardProject() {
   const imageStyle = {
     borderRadius: "15%",
     border: "2px solid #fff",
-    width: "50%",
+    width: "40%",
     height: "20%",
   };
 
