@@ -1,5 +1,4 @@
 import Top from "@/components/top";
-import NavBar from "@/components/navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -16,7 +15,6 @@ export default function Contact() {
         </div>
       </div>
       <div className="basis-1/12">
-        <NavBar />
       </div>
     </div>
   );

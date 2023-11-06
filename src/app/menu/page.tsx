@@ -1,5 +1,4 @@
 import Top from "@/components/top";
-import NavBar from "@/components/navbar";
 import Link from "next/link";
 
 export default function Menu() {
@@ -15,7 +14,6 @@ export default function Menu() {
         <div><Link href="/contact">Contact</Link></div>
       </div>
       <div className="basis-1/12">
-        <NavBar />
       </div>
     </div>
   );

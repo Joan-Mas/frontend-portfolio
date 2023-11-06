@@ -1,5 +1,4 @@
 import Top from "@/components/top";
-import NavBar from "@/components/navbar";
 import Image from "next/image";
 
 export default function About() {
@@ -44,7 +43,6 @@ export default function About() {
         </div> */}
       </div>
       <div className="basis-1/12">
-        <NavBar />
       </div>
     </div>
   );

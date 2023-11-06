@@ -1,5 +1,4 @@
 import Top from "@/components/top";
-import NavBar from "@/components/navbar";
 import CardProject from "@/components/cardProject";
 
 export default function Projects() {
@@ -12,7 +11,7 @@ export default function Projects() {
         <CardProject/>
       </div>
       <div className="basis-1/12">
-        <NavBar />
+        
       </div>
     </div>
   );
